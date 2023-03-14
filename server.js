@@ -5,9 +5,9 @@ import cors from 'cors';
 
 // config({ path: `.env.${process.env.NODE_ENV}` });
 
-import { allTodos } from './routes/allTodos.route.js';
-import { singleTodo } from './routes/singleTodo.route.js';
-import { addTodo } from './routes/addTodo.route.js';
+import { allTodos } from './src/routes/allTodos.route.js';
+import { singleTodo } from './src/routes/singleTodo.route.js';
+import { addTodo } from './src/routes/addTodo.route.js';
 
 const port = process.env.PORT;
 const host = process.env.HOST;
