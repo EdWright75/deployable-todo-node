@@ -1,9 +1,9 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
-// import { config } from 'dotenv';
+import { config } from 'dotenv';
 
-// config({ path: `.env.${process.env.NODE_ENV}` });
+config({ path: `.env.${process.env.NODE_ENV}` });
 
 import { allTodos } from './src/routes/allTodos.route.js';
 import { singleTodo } from './src/routes/singleTodo.route.js';
