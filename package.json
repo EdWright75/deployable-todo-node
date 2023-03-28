@@ -7,7 +7,7 @@
   "scripts": {
     "test": "NODE_ENV=test mocha --timeout 10000 --exit",
     "start": "NODE_ENV=development nodemon server",
-    "start-prod": "pm2 start server.js -f",
+    "start-prod": "NODE_ENV=production pm2 start server.js -f",
     "test-win": "SET NODE_ENV=test&&mocha --timeout 10000 --exit",
     "start-win": "SET NODE_ENV=development&&nodemon server",
     "start-prod-win": "SET NODE_ENV=production&&nodemon server"
