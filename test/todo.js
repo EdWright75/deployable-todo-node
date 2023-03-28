@@ -4,7 +4,7 @@ import chai from 'chai';
 import { expect } from 'chai';
 import chaiHttp from 'chai-http';
 
-import server from '../src/server.js';
+import server from '../server.js';
 import testData from './testData/sampleTodos.js';
 const testDataArray = testData.todos;
 
