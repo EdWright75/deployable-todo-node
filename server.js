@@ -30,6 +30,7 @@ app.use(`/todo`, singleTodo);
 
 
 const server = app.listen(port, host, () => {
+    console.log(`Deploy world`);
     const SERVERHOST = server.address().address;
     const SERVERPORT = server.address().port;
     console.log(`Server is runnning on http://${SERVERHOST}:${SERVERPORT}`);
